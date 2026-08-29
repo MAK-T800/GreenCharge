@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+ml_env/
+
+# Large raw datasets & tabular parquets
+*.csv
+processed_data/
+*.parquet
+
+# Heavy model binaries & weights (avoid exceeding GitHub 100MB limit)
+models/saved/*.pkl
+models/saved/*.keras
+models/saved/*.json
+!models/saved/all_predictions.json
+!models/saved/load_balance_results.json
+!models/saved/xgboost_feature_importance.json
+
+# Track metrics & publication plots
+!models/saved/metrics/
+!models/saved/metrics/*.json
+!plots/
+!plots/*.png
+
+# System & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

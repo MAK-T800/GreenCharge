@@ -1,0 +1,9 @@
+{
+  "model_name": "random_forest",
+  "metrics": {
+    "R2": 0.982859,
+    "RMSE": 14.3279,
+    "MAE": 9.9046,
+    "MAPE": 5.724
+  }
+}

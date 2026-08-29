@@ -1,0 +1,9 @@
+{
+  "model_name": "meta_ensemble",
+  "metrics": {
+    "R2": 0.988944,
+    "RMSE": 11.5074,
+    "MAE": 7.8083,
+    "MAPE": 4.2783
+  }
+}

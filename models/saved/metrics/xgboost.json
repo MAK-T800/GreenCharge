@@ -1,0 +1,9 @@
+{
+  "model_name": "xgboost",
+  "metrics": {
+    "R2": 0.987843,
+    "RMSE": 12.0663,
+    "MAE": 7.9722,
+    "MAPE": 4.6611
+  }
+}

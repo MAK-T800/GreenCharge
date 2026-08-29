@@ -1,0 +1,78 @@
+{
+  "leaderboard": [
+    {
+      "Model": "meta_ensemble",
+      "R2": 0.988944,
+      "RMSE": 11.5074,
+      "MAE": 7.8083,
+      "MAPE": 4.2783
+    },
+    {
+      "Model": "xgb_bilstm",
+      "R2": 0.988049,
+      "RMSE": 11.9639,
+      "MAE": 7.9541,
+      "MAPE": 4.6188
+    },
+    {
+      "Model": "xgboost",
+      "R2": 0.987843,
+      "RMSE": 12.0663,
+      "MAE": 7.9722,
+      "MAPE": 4.6611
+    },
+    {
+      "Model": "random_forest",
+      "R2": 0.982859,
+      "RMSE": 14.3279,
+      "MAE": 9.9046,
+      "MAPE": 5.724
+    },
+    {
+      "Model": "ann",
+      "R2": 0.982253,
+      "RMSE": 14.5792,
+      "MAE": 10.6775,
+      "MAPE": 6.1274
+    },
+    {
+      "Model": "cnn",
+      "R2": 0.955706,
+      "RMSE": 23.0325,
+      "MAE": 17.238,
+      "MAPE": 8.6998
+    },
+    {
+      "Model": "dual_ann",
+      "R2": 0.955432,
+      "RMSE": 23.1038,
+      "MAE": 16.9203,
+      "MAPE": 12.4312
+    },
+    {
+      "Model": "cnn_bilstm",
+      "R2": 0.949769,
+      "RMSE": 24.5276,
+      "MAE": 18.5427,
+      "MAPE": 11.2118
+    }
+  ],
+  "best_by_metric": {
+    "R2": {
+      "model": "meta_ensemble",
+      "value": 0.988944
+    },
+    "RMSE": {
+      "model": "meta_ensemble",
+      "value": 11.5074
+    },
+    "MAE": {
+      "model": "meta_ensemble",
+      "value": 7.8083
+    },
+    "MAPE": {
+      "model": "meta_ensemble",
+      "value": 4.2783
+    }
+  }
+}

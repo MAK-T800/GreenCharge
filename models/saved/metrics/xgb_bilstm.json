@@ -1,0 +1,9 @@
+{
+  "model_name": "xgb_bilstm",
+  "metrics": {
+    "R2": 0.988049,
+    "RMSE": 11.9639,
+    "MAE": 7.9541,
+    "MAPE": 4.6188
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model_name": "cnn_bilstm",
+  "metrics": {
+    "R2": 0.949769,
+    "RMSE": 24.5276,
+    "MAE": 18.5427,
+    "MAPE": 11.2118
+  }
+}
