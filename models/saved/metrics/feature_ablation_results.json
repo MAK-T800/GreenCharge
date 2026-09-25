@@ -1,0 +1,115 @@
+{
+  "Baseline (All Features)": {
+    "metrics": {
+      "R2": 0.98756,
+      "RMSE": 12.2063,
+      "MAE": 8.1411,
+      "MAPE": 4.6865
+    },
+    "features_dropped": [],
+    "num_features_used": 43
+  },
+  "Without Lag Features": {
+    "metrics": {
+      "R2": 0.980671,
+      "RMSE": 15.2152,
+      "MAE": 9.5243,
+      "MAPE": 5.7673
+    },
+    "features_dropped": [
+      "lag_1h",
+      "lag_2h",
+      "lag_3h",
+      "lag_6h",
+      "lag_12h",
+      "lag_24h",
+      "lag_48h",
+      "lag_168h"
+    ],
+    "num_features_used": 35
+  },
+  "Without Weather Features": {
+    "metrics": {
+      "R2": 0.987688,
+      "RMSE": 12.1434,
+      "MAE": 8.0531,
+      "MAPE": 4.7142
+    },
+    "features_dropped": [
+      "air_temperature",
+      "cloud_coverage",
+      "dew_temperature",
+      "precip_depth_1_hr",
+      "sea_level_pressure",
+      "wind_direction",
+      "wind_speed"
+    ],
+    "num_features_used": 36
+  },
+  "Without Cyclical Encodings": {
+    "metrics": {
+      "R2": 0.987443,
+      "RMSE": 12.2637,
+      "MAE": 8.2305,
+      "MAPE": 4.7918
+    },
+    "features_dropped": [
+      "hour_sin",
+      "hour_cos",
+      "dow_sin",
+      "dow_cos",
+      "month_sin",
+      "month_cos"
+    ],
+    "num_features_used": 37
+  },
+  "Without Rolling Statistics": {
+    "metrics": {
+      "R2": 0.97842,
+      "RMSE": 16.0766,
+      "MAE": 10.9809,
+      "MAPE": 5.9367
+    },
+    "features_dropped": [
+      "rolling_mean_6h",
+      "rolling_std_6h",
+      "rolling_mean_12h",
+      "rolling_std_12h",
+      "rolling_mean_24h",
+      "rolling_std_24h",
+      "rolling_mean_48h",
+      "rolling_std_48h",
+      "rolling_mean_168h",
+      "rolling_std_168h"
+    ],
+    "num_features_used": 33
+  },
+  "Without Building Metadata": {
+    "metrics": {
+      "R2": 0.987514,
+      "RMSE": 12.2285,
+      "MAE": 8.2268,
+      "MAPE": 4.6844
+    },
+    "features_dropped": [
+      "square_feet",
+      "year_built",
+      "floor_count"
+    ],
+    "num_features_used": 40
+  },
+  "Without Calendar Flags": {
+    "metrics": {
+      "R2": 0.987554,
+      "RMSE": 12.2093,
+      "MAE": 8.1861,
+      "MAPE": 4.7623
+    },
+    "features_dropped": [
+      "is_weekend",
+      "is_holiday",
+      "semester_period"
+    ],
+    "num_features_used": 40
+  }
+}
